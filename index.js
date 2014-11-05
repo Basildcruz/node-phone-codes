@@ -3,7 +3,7 @@ var fs = require("fs"),
 
 var db = null;
 try {
-  db = JSON.parse(fs.readFileSync("./db.json"));
+  db = JSON.parse(fs.readFileSync(__dirname+"/db.json"));
 }
 catch(ex) {
   sys.puts("Fail to load phone codes database, it seems DB corrupted or not exists");
