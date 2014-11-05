@@ -1,0 +1,12 @@
+{
+	"name": "phone-codes",
+  "version": "0.0.1",
+  "description": "Phone codes database",
+  "keywords": ["phone", "codes", "geo", "country", "cell", "cellular"],
+  "scripts": {
+    "test": "mocha test"
+  },
+  "devDependencies": {
+    "should": "*"
+  }
+}
